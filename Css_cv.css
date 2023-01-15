@@ -1,0 +1,130 @@
+body, footer {
+    background-color: beige;
+}
+
+h1, h3 {
+    font-family: 'Caramel', cursive;
+}
+
+h3 {
+    margin-left: 2px;
+    margin-top: 2px;
+    color: beige;
+    background-image: url("gif.gif");
+}
+
+h1 {
+    background-image: url("gif.gif");
+    color: beige;
+    font-family: 'Caramel', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.Redes {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background-image: url("gif.gif");
+}
+
+.Redes li a{
+    text-align: center;
+    width: 290px;
+    text-decoration: none;
+    color: beige;
+    padding: 20px;
+    display: block;
+    font-family: 'Caramel', cursive;
+}
+
+.Redes li {
+    display: inline-block;
+    text-align: center;
+} 
+
+.Redes li a:hover{
+    width: 290px;
+    background-color: grey;
+    color:beige
+}
+
+span {
+    display: inline-block;
+    text-align: center;
+}
+
+.Datos li {
+   width: 1000px;
+   margin: 3px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.Datos li a {
+    font-family: 'Caramel', cursive;
+}
+
+section {
+    font-family: 'Caramel', cursive;
+}
+
+p {
+    font-family: 'Caramel', cursive;
+}
+
+button {
+    background-color: beige;  
+    font-family: 'Caramel', cursive; 
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-image: url("gif.gif");
+    font-family: 'Caramel', cursive;
+    color: beige;
+}
+
+@media only screen and (max-width:800px) {
+    nav {
+        margin-left: 0%;
+        display: block;
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+.caja1 {
+  width: 46%;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  font-family: 'Caramel', cursive;
+  margin-bottom: 40px;
+}
+
+.caja2 {
+    width: 46%;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Caramel', cursive;  
+    margin-bottom: 40px;
+}
+
+.caja1 li {
+    margin-bottom: 1%;
+}
+
+
+.caja2 li {
+    margin-bottom: 1%;
+}
